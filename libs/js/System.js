@@ -26,4 +26,4 @@ function getToken() {
 function assign_id_to_selected_element(id, parent) {
     parent.find(".item_select").attr('data-uuid', id);
 }
-const root = "http://hilltop.loca";
+const root = "http://manage.hilltopwinesandspirit.co.ke";
