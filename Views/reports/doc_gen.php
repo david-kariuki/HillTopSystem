@@ -49,6 +49,7 @@ switch ($format) {
             $html2pdf = new Html2Pdf('P', 'A4', 'fr',null,null,array(0,0,0,0));
             $html2pdf->setDefaultFont('Arial');
             $html2pdf->writeHTML($content);
+            exit();
             $html2pdf->output('example00.pdf');
         
         break;
