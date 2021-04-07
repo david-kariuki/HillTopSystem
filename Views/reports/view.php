@@ -65,12 +65,12 @@ if (session_status() === PHP_SESSION_NONE) {
                         <div class="elemental_box" onclick="export_content('csv')">
                             <img src="res/images/icons/csv_download.png" alt="">
                         </div>
-                        <div class="elemental_box" onclick="export_content('pdf')">
+                        <!-- <div class="elemental_box" onclick="export_content('pdf')">
                             <img src="res/images/icons/pdf_download.png" alt="">
                         </div>
                         <div class="elemental_box" onclick="export_content('view')">
                             <img src="res/images/icons/view_report.png" alt="">
-                        </div>
+                        </div> -->
                     </div>
                     <div class="calender_picker">
                         <div class="date_picker">
